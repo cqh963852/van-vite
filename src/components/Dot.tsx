@@ -45,7 +45,7 @@ const Dot = ({
         hover.val = false;
       }}
     >
-      {text}
+      {hover ? `*${text}*` : text}
     </div>
   );
 };
